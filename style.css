@@ -1,0 +1,166 @@
+.firstdivision{
+    display: flex;
+    flex-direction: column;
+    color:rgb(208, 38, 38);
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 550pxvh;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.catimg > img{
+    height: 500px;
+    width: 800px;
+}
+
+.seconddivision{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #272829;
+    font-size: 20px;
+}
+
+.seconddivision > img{
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+.seconddivision > h2{
+    color:rgb(208, 38, 38);
+}
+
+.thirddivision{
+    background-color: rgba(11, 9, 9, 0.647);
+}
+
+.third{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.skills{
+    margin-top: 60px;
+    color: white;
+    
+}
+
+
+.thirddivision > h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 0px;
+    color:rgb(208, 211, 0);
+}
+
+.gif > .giphy-embed{
+    width:800px;
+    height:352px;
+    bottom: 250px;
+    margin: 0px;
+
+}
+
+
+
+iframe{
+    pointer-events: none;
+    border-radius: 36%;
+    margin-bottom: 20px;
+}
+
+
+.fourthdivision{
+    background-color: #272829;
+    background-image: url(./exp\ image.avif);
+
+}
+
+.experience{
+    font-size: 20px;
+    color:rgb(208, 211, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.experience > h2{
+    margin-top: 0px;
+}
+
+.briefexp{
+    color: white;
+}
+
+.list{
+    margin-bottom: 0px;
+}
+
+.heading5 > h2{
+    display: flex;
+    margin-top: 0px;
+    color: white;
+}
+/* .contact{
+    position: relative;
+    left: 46%;
+    color: white;
+} */
+.fifthdivision{
+    background-color: rgb(12, 33, 12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+
+a{
+    color: white;
+
+}
+
+.social{
+    margin-bottom: 0px;
+}
+
+.sixthdivision{
+    position: relative;
+    text-align: end;
+    background-color: rgb(38, 130, 38);
+    padding: 1px;
+    margin: 0px;
+}
+
+
+@media (max-width: 600px) {
+    .gif > .giphy-embed{
+        width:100%;
+        height:0;
+        padding-bottom:56%;
+    }
+
+    .catimg > img{
+        height: 100px;
+        width: 100%;
+    }
+
+    .contact{
+        position: relative;
+        text-align: left;
+        color: white;
+    }
+
+}
+
+
